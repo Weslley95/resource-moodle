@@ -1,0 +1,229 @@
+/* ======= Inicío página de cadastro ======= */
+#page-login-signup .snap-login {
+  max-width: 50rem;
+}
+#page-login-signup #region-main {
+  max-width: 100%;
+  padding: 0 20% 2em 20%;
+  margin-left: 5%;
+}
+#page-login-index .snap-login,
+#page-login-signup .snap-login {
+  background-color: #fff;
+}
+#mr-nav #snap-header {
+  padding: 0.5em 4%;
+  background-color: white;
+}
+/* ======== Fim página de cadastro ======= */
+
+/* ========== Início rodapé ======== */
+#moodle-footer {
+  color: #dee2e6;
+  background-color: #000000;
+}
+/* ========== Fim rodapé ======== */
+
+/* ========== Início course -> barra latral right ======== */
+#snap-course-wrapper #toc-desktop-menu-heading {
+  padding: 1em 0;
+  border-bottom: 1px solid #dee2e6;
+  margin-right: 20%;
+}
+#course-toc #chapters .chapter-title {
+  display: block;
+  margin-right: 20%;
+  text-align: center;
+  border-radius: 2%;
+  margin-bottom: 0em;
+  line-height: 2;
+  background-color: #800000;
+  color: #fff;
+}
+#toc-search {
+  margin-right: 15%;
+}
+/* ========== Início course -> barra latral right ======== */
+
+/*
+====== Início =====
+Barra menu
+Navbar acesso rápido
+Color font
+Header superior
+*/
+header#mr-nav #snap-custom-menu nav.navbar ul#snap-navbar-content {
+  margin: 160px;
+  padding: 0px;
+  padding-bottom: 110px;
+  max-width: 50%;
+}
+.navbar {
+  max-height: 0px;
+  margin-bottom: -3%;
+}
+.theme-snap
+  header#mr-nav
+  #snap-custom-menu
+  nav.navbar
+  ul#snap-navbar-content
+  li.nav-item
+  a {
+  color: #800000;
+  background-color: #fff;
+}
+/*
+====== Fim =====
+Barra menu
+Navbar acesso rápido
+Color font
+Header superior
+*/
+
+/* ===== Início nav-bar transparente ===== */
+.theme-snap header#mr-nav #snap-custom-menu nav.navbar {
+  background-color: #80000000;
+}
+/* ===== Fim nav-bar transparente ===== */
+
+/* ===== Início font menu ===== */
+header#mr-nav
+  #snap-custom-menu
+  nav.navbar
+  ul#snap-navbar-content
+  li.nav-item
+  a {
+  font-weight: 500;
+  background-color: #dddddd00;
+}
+/* ===== Fim nav-bar transparente ===== */
+
+/* ===== Início dropdown menu transparente ===== */
+.theme-snap
+  header#mr-nav
+  #snap-custom-menu
+  nav.navbar
+  ul#snap-navbar-content
+  li.nav-item
+  div.dropdown-menu {
+  background-color: #fff;
+}
+/* ===== Fim dropdown menu transparente ===== */
+
+/* ===== Início dropdown espaçamento ===== */
+header#mr-nav
+  #snap-custom-menu
+  nav.navbar
+  ul#snap-navbar-content
+  li.nav-item
+  a {
+  max-width: 13em;
+}
+.theme-snap
+  header#mr-nav
+  #snap-custom-menu
+  nav.navbar
+  ul#snap-navbar-content
+  li.nav-item
+  a:focus,
+.theme-snap
+  header#mr-nav
+  #snap-custom-menu
+  nav.navbar
+  ul#snap-navbar-content
+  li.nav-item
+  a:hover {
+  background-color: #cecdcc;
+  outline: #cecdcc;
+}
+/* ===== Fim dropdown espaçamento ===== */
+
+/* ===== Início seta dropdown ===== */
+header#mr-nav
+  #snap-custom-menu
+  nav.navbar
+  ul#snap-navbar-content
+  li.nav-item
+  .dropdown-toggle::after {
+  right: 0.8em;
+  top: 45%;
+}
+/* ===== Fim seta dropdown ===== */
+
+/* ===== Início dropdown ===== */
+.dropdown-menu {
+  min-width: 13rem;
+}
+/* ===== Fim dropdown ===== */
+
+/* ===== Início página index - tópico ===== */
+body.snap-resource-card li.snap-resource .asset-wrapper .snap-header-card {
+  padding-bottom: 0em;
+}
+#page-site-index .sitetopic {
+  padding: 0 0%;
+}
+#page-site-index .sitetopic,
+#frontpage-category-names,
+#frontpage-category-combo {
+  margin: 0em auto;
+}
+/* ===== Fim página index - tópico ===== */
+
+/* ===== Início título carrosel ===== */
+#snap-site-carousel .carousel-caption {
+  left: 0%;
+  bottom: inherit;
+  text-align: left;
+  top: 75%;
+  text-shadow: none;
+  color: white;
+  width: 40%;
+  padding: 1em 1%;
+  margin-top: 2em;
+  font-weight: 600;
+  padding-bottom: 0%;
+  background-color: #eee0;
+  border-radius: 3%;
+}
+#page-header h1 {
+  margin-top: 0;
+  line-height: 0.9;
+  color: white;
+  font-weight: 500;
+}
+/* ===== Fim título carrosel ===== */
+/* ===== Início footer ===== */
+#moodle-footer {
+  color: #dee2e6;
+  text-align: center;
+  background-color: #800000;
+}
+#moodle-footer {
+  padding-top: 0em;
+  padding-bottom: 1em;
+}
+.fa-info-circle:before {
+  color: #800000;
+}
+#page-footer a {
+  color: #fff;
+  text-decoration: blink;
+}
+/* ===== Fim footer ===== */
+/* ===== Início course -> progresso ===== */
+#course-toc .snap-section-complete {
+  width: 1em;
+  height: 1.5em;
+}
+/* ===== Fim course -> progresso ===== */
+/* ===== Início buttom login ===== */
+#mr-nav .snap-login-button {
+  margin: 15px 1rem;
+}
+/* ===== Fim buttom login ===== */
+/* ===== Início logo ===== */
+#snap-home.logo {
+  height: 65px;
+}
+/* ===== Fim logo ===== */
